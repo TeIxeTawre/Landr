@@ -1,0 +1,71 @@
+/* screen <= 960px */
+@media screen and (max-width: 993px) {
+	
+	.nav {
+		display: none;
+	}
+
+	.navbar { 
+		margin-top: 30px;
+	}
+
+	.btn-down {
+		margin-right: 5%;
+	}
+
+	/* inform block with iphone */
+	
+	.blockinform-first {
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.lorem .col-lg-6 {
+		margin: 10px 0;
+	}	
+
+	.lorem .row:nth-child(1) {
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		-o-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.lorem .background-line {
+		display: none;
+	}
+
+	/* filter design */
+
+	.filter-design {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		width: 80%;
+	}
+
+}
+
+/* screen <= 720px */
+@media screen and (max-width: 720px) {
+	.btn-down {
+		margin-right: 15%;
+	}
+
+	.everything .background-line {
+		display: none;
+	}
+
+	
+	
+}
+
+/* screen <= 540px  */
+@media screen and (max-width: 540px) {
+	.btn-down {
+		margin-right: 20%;
+	}
+}
