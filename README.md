@@ -1,2 +1,2 @@
 # Landr
-Maket with name "Landr" for adnroid app
+https://teixetawre.github.io/Landr/
